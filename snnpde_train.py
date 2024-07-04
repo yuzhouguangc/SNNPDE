@@ -30,7 +30,7 @@ args = Config(
     batch_size= 1,
     lr=0.000001,
     epochs=10000,
-    model_path="./models/snnpdemodel_n1500_weights.pth",
+    model_path="./models/snnpdemodel_n750_weights.pth",
     data_path="./data/convdiff_2pi_n750_t21_train/",
     tb_log_dir="./tb_logs/",
 )
