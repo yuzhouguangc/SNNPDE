@@ -26,7 +26,7 @@ args = Config(
     atol=1.0e-5,  # 1.0e-7
     device="cuda",
     model_path="./models/snnpdemodel_n1500_weights.pth",
-    data_path="./data/convdiff_2pi_n750_t21_test/",
+    data_path="./data/convdiff_2pi_n1500_t21_test/",
 )
 
 device = torch.device(args.device)
