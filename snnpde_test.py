@@ -26,7 +26,7 @@ args = Config(
     atol=1.0e-5,  # 1.0e-7
     device="cuda",
     model_path="./models/snnpdemodel_n750_weights.pth", # load weights from the training step
-    data_path="./data/convdiff_2pi_n750_t21_test/",
+    data_path="./data/convdiff_2pi_n750_t21_test/", # test set
 )
 
 device = torch.device(args.device)
