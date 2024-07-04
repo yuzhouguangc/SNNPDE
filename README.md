@@ -14,4 +14,6 @@ conda install pyg -c pyg
 ## Structure
 + data: including ConvDiff\_N750, ConvDiff\_N1500, ConvDiff\_N3000, Heat, Burgers, Eastern U.S., Western U.S., and Stanford Bunny.
 + graphpdes/models/models.py: implementation of our SNN-PDE model.
+  
+Please cite our work if you find useful.
 
